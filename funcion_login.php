@@ -14,7 +14,7 @@ public function login()
 
                     //con este "echo" probamos que los datos ingresado en los campos se estan recibiendo bien = echo " usuario =$user <br> password_js= $pass_js <br> password_php= $pass_php";
 
-                     $sql="select * from user where user='$user' and pass = '$pass_php'"; //consulta guarda en variable.
+                     $sql="select * from user where user='$user' and pass = '$pass'"; //consulta guarda en variable.
 
                      $res=mysql_query($sql,Conectar::con()); //aqui query a nuestra bd.
 
