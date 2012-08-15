@@ -10,9 +10,7 @@ public function login()
 
                  //recatamos los datos via post que provienen de nuestro form y los guardamos en variables para hacer una consulta mas limpia.
                     $user=$_POST["user"];
-                     $pass_js=$_POST["pass"];
-                    //$pass_php=md5($_POST["pass"]);
-                     $pass_php=$_POST["pass"];
+                    $pass=$_POST["pass"];
 
                     //con este "echo" probamos que los datos ingresado en los campos se estan recibiendo bien = echo " usuario =$user <br> password_js= $pass_js <br> password_php= $pass_php";
 
