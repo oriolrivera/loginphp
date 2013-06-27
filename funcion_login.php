@@ -4,7 +4,7 @@
 
 //funcion para crear login de esta funcion espero que saques lo que necesitas.
 
-public function login()
+ function login()
 
                  {
 
